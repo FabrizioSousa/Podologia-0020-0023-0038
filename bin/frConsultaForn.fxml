@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-background-color 0xffd466ff?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Label layoutX="272.0" layoutY="40.0" text="Consulta de fornecedores" />
+    <Button fx:id="btnRemoverForn" layoutX="283.0" layoutY="396.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="150.0" text="Remover fornecedor" />
+    <Label layoutX="45.0" layoutY="101.0" text="Nome" />
+    <TextField layoutX="45.0" layoutY="124.0" />
+    <ListView layoutX="45.0" layoutY="179.0" prefHeight="200.0" prefWidth="623.0" />
+  </children>
+</Pane>

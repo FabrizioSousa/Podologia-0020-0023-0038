@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-background-color 0xfff966ff?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Label layoutX="223.0" layoutY="39.0" text="Tratamentos" />
+    <Label layoutX="29.0" layoutY="97.0" text="Nome do tratamento" />
+    <TextField layoutX="29.0" layoutY="114.0" />
+    <Label layoutX="203.0" layoutY="97.0" text="Cuidados" />
+    <Button fx:id="btnAddTratamento" layoutX="203.0" layoutY="217.0" mnemonicParsing="false" text="Adicionar tratamento" />
+    <TextField layoutX="203.0" layoutY="114.0" />
+    <TextField layoutX="380.0" layoutY="114.0" />
+    <Label layoutX="380.0" layoutY="97.0" text="Período" />
+  </children>
+</Pane>
