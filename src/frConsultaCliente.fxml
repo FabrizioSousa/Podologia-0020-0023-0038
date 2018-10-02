@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-background-color 0xd6ff33ff?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Label layoutX="272.0" layoutY="40.0" text="Consulta de clientes" />
+    <TextField layoutX="41.0" layoutY="115.0" />
+    <Label layoutX="41.0" layoutY="98.0" text="Nome do cliente" />
+    <Button fx:id="btnRemoverCliente" layoutX="289.0" layoutY="361.0" mnemonicParsing="false" text="Remover cliente" />
+    <ListView layoutX="29.0" layoutY="153.0" prefHeight="200.0" prefWidth="629.0" />
+  </children>
+</Pane>

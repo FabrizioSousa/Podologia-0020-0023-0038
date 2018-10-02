@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-background-color 0xffb800ff?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerMenu">
+  <children>
+    <Label layoutX="222.0" layoutY="38.0" text="Menu" />
+    <Button fx:id="btnGerProd" layoutX="425.0" layoutY="85.0" mnemonicParsing="false" onAction="#GerenciarProduto" prefHeight="25.0" prefWidth="165.0001220703125" text="Gerenciar Produtos" />
+    <Button id="btnGerClientes" fx:id="btnGerCliente" layoutX="425.0" layoutY="119.0" mnemonicParsing="false" onAction="#GerenciarClientes" prefHeight="25.0" prefWidth="165.0" text="Gerenciar Clientes" />
+    <Button id="btnCompraProd" fx:id="btnComprarProd" layoutX="425.0" layoutY="287.0" mnemonicParsing="false" onAction="#ComprarProdutos" prefHeight="24.999900000002526" prefWidth="165.0" text="Comprar Produto" />
+    <Button id="btnGerTrat" fx:id="btnGerTratamentos" layoutX="425.0" layoutY="255.0" mnemonicParsing="false" onAction="#GerenciarTratamentos" prefHeight="25.0" prefWidth="165.0" text="Gerenciar Tratamentos" />
+    <Button id="btnGerProc" fx:id="btnGerProc" layoutX="425.0" layoutY="222.0" mnemonicParsing="false" onAction="#GerenciarProcs" prefHeight="25.0" prefWidth="165.0" text="Gerenciar Procedimentos" />
+    <Button id="btnGerForn" fx:id="btnGerForn" layoutX="425.0" layoutY="188.0" mnemonicParsing="false" onAction="#GerenciarFornecedores" prefHeight="25.0" prefWidth="165.00009999999747" text="Gerenciar Fornecedores" />
+    <Button id="btnGerConsulta" fx:id="btnGerConsulta" layoutX="425.0" layoutY="154.0" mnemonicParsing="false" onAction="#GerenciarConsultas" prefHeight="25.0" prefWidth="165.0001220703125" text="Gerenciar Consultas" />
+    <Button fx:id="btnVerEstoque" layoutX="425.0" layoutY="321.0" mnemonicParsing="false" onAction="#VerEstoque" prefHeight="25.0" prefWidth="165.0" text="Ver Estoque" />
+  </children>
+</Pane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-background-color 0xffd466ff?>
+
+<Pane cache="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="false" prefHeight="422.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Label layoutX="272.0" layoutY="40.0" text="Agendamentos" />
+    <Button fx:id="btnCancelarConsulta" layoutX="163.0" layoutY="361.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="150.0" text="Cancelar consulta" />
+    <Button layoutX="353.0" layoutY="361.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="150.0" text="Novo agendamento" />
+      <ListView layoutX="34.0" layoutY="91.0" prefHeight="200.0" prefWidth="620.0" />
+  </children>
+</Pane>

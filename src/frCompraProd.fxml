@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-background-color 0xfff733ff?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerCompraProd">
+  <children>
+    <Label layoutX="288.0" layoutY="41.0" text="Compra de Produtos" />
+    <TextField id="btnProcurarClientes" layoutX="31.0" layoutY="96.0" prefWidth="200.0" />
+    <Label layoutX="31.0" layoutY="80.0" text="Nome" />
+    <Label layoutX="295.0" layoutY="77.0" text="Data de nascimento" />
+    <TextField layoutX="288.0" layoutY="96.0" prefWidth="200.0" />
+    <Button fx:id="btnProcurarClientes" layoutX="523.0" layoutY="98.0" mnemonicParsing="false" onAction="#Pesquisar" text="Procurar Clientes" />
+    <ComboBox layoutX="96.0" layoutY="191.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Label layoutX="96.0" layoutY="175.0" text="Tipo" />
+    <ComboBox layoutX="288.0" layoutY="190.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Label layoutX="288.0" layoutY="172.0" text="Produto" />
+    <Button id="btnAddProd" fx:id="btnAddProd" layoutX="388.0" layoutY="191.0" mnemonicParsing="false" text="Adicionar Produto" />
+    <Button id="btnProsseguir" fx:id="btnProsseguir" layoutX="295.0" layoutY="474.0" mnemonicParsing="false" onAction="#Prosseguir" prefHeight="42.9609375" prefWidth="132.0" text="Prosseguir" />
+      <ListView layoutX="29.0" layoutY="226.0" prefHeight="200.0" prefWidth="632.0" />
+  </children>
+</Pane>
